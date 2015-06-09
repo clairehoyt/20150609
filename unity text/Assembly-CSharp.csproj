@@ -180,6 +180,7 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
      <Compile Include="Assets\script\ClickCube.cs" />
+     <Compile Include="Assets\script\ControlCube.cs" />
      <Compile Include="Assets\script\Logic.cs" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\ReadMe - 3.5.8.txt" />
