@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class ClickCube : MonoBehaviour {
+		public GameObject cube;
 
 	// Use this for initialization
 	void Start () {
@@ -14,6 +15,8 @@ public class ClickCube : MonoBehaviour {
 	}
 		void OnMouseDown()
 		{
-				Debug.Log ("click cube");
+				//Debug.Log ("click cube");
+				cube.SetActive (false);
+
 		}
 }
