@@ -168,17 +168,17 @@
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.Graphs">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
- </Reference>
- <Reference Include="System">
- <HintPath>E:/sara/work/text/20150609/unity text/Assets/daochu/1_Data/Managed/System.dll</HintPath>
+ <Reference Include="Mono.Security">
+ <HintPath>E:/sara/work/text/20150609/unity text/Assets/daochu/1_Data/Managed/Mono.Security.dll</HintPath>
  </Reference>
  <Reference Include="System.Core">
  <HintPath>E:/sara/work/text/20150609/unity text/Assets/daochu/1_Data/Managed/System.Core.dll</HintPath>
  </Reference>
- <Reference Include="Mono.Security">
- <HintPath>E:/sara/work/text/20150609/unity text/Assets/daochu/1_Data/Managed/Mono.Security.dll</HintPath>
+ <Reference Include="System">
+ <HintPath>E:/sara/work/text/20150609/unity text/Assets/daochu/1_Data/Managed/System.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
