@@ -9,6 +9,7 @@ public class Logic : MonoBehaviour {
 	void Start () {
 				//cube.SetActive (false);
 				controlcube.GetComponent<ControlCube> ().HideCube ();
+				controlcube.GetComponent<ControlCube> ().WaitShow ();
 	
 	}
 	

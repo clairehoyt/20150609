@@ -21,4 +21,8 @@ public class ControlCube : MonoBehaviour {
 		{
 				cube.SetActive (true);
 		}
+		public void WaitShow()
+		{
+				Invoke ("ShowCube", 5);
+		}
 }
