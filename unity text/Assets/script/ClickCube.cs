@@ -17,6 +17,7 @@ public class ClickCube : MonoBehaviour {
 		{
 				//Debug.Log ("click cube");
 				cube.SetActive (false);
+		Application.LoadLevel ("2");
 
 		}
 }
