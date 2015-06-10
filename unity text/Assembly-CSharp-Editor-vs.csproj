@@ -154,6 +154,7 @@
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Additive Colored.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
      <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
+     <None Include="Assets\daochu\1_Data\Mono\etc\mono\mconfig\config.xml" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
      <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
@@ -170,14 +171,18 @@
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
+
  <Reference Include="Mono.Security">
  <HintPath>E:/sara/work/text/20150609/unity text/Assets/daochu/1_Data/Managed/Mono.Security.dll</HintPath>
  </Reference>
+ <Reference Include="System.Core">
+ <HintPath>E:/sara/work/text/20150609/unity text/Assets/daochu/1_Data/Managed/System.Core.dll</HintPath>
+ </Reference>
+ 
  <Reference Include="System">
  <HintPath>E:/sara/work/text/20150609/unity text/Assets/daochu/1_Data/Managed/System.dll</HintPath>
  </Reference>
- <Reference Include="System.Core">
- <HintPath>E:/sara/work/text/20150609/unity text/Assets/daochu/1_Data/Managed/System.Core.dll</HintPath>
+
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

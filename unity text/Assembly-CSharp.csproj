@@ -180,6 +180,7 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
      <Compile Include="Assets\script\ClickCube.cs" />
+     <Compile Include="Assets\script\ControlCube.cs" />
      <Compile Include="Assets\script\Logic.cs" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\ReadMe - 3.5.8.txt" />
@@ -211,6 +212,7 @@
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Additive Colored.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
      <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
+     <None Include="Assets\daochu\1_Data\Mono\etc\mono\mconfig\config.xml" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
      <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
@@ -221,14 +223,24 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/sara/work/text/20150609/unity text/Assets/daochu/1_Data/Managed/UnityEngine.UI.dll</HintPath>
  </Reference>
+<<<<<<< HEAD
  <Reference Include="Mono.Security">
  <HintPath>E:/sara/work/text/20150609/unity text/Assets/daochu/1_Data/Managed/Mono.Security.dll</HintPath>
+=======
+ <Reference Include="System.Core">
+ <HintPath>E:/sara/work/text/20150609/unity text/Assets/daochu/1_Data/Managed/System.Core.dll</HintPath>
+>>>>>>> fixbug
  </Reference>
  <Reference Include="System">
  <HintPath>E:/sara/work/text/20150609/unity text/Assets/daochu/1_Data/Managed/System.dll</HintPath>
  </Reference>
+<<<<<<< HEAD
  <Reference Include="System.Core">
  <HintPath>E:/sara/work/text/20150609/unity text/Assets/daochu/1_Data/Managed/System.Core.dll</HintPath>
+=======
+ <Reference Include="Mono.Security">
+ <HintPath>E:/sara/work/text/20150609/unity text/Assets/daochu/1_Data/Managed/Mono.Security.dll</HintPath>
+>>>>>>> fixbug
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

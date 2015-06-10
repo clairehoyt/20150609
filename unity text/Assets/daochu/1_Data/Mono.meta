@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: fa572551d17d08f4c89f0bbe0c2f94f3
+=======
+guid: 4f84371508b5d37468d54d3fba02a3ca
+>>>>>>> fixbug
 folderAsset: yes
 DefaultImporter:
   userData: 
