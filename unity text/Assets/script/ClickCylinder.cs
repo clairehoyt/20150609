@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ClickCube : MonoBehaviour {
+public class ClickCylinder : MonoBehaviour {
 		public GameObject cube;
 
 	// Use this for initialization
@@ -13,11 +13,12 @@ public class ClickCube : MonoBehaviour {
 	void Update () {
 	
 	}
+
 		void OnMouseDown()
 		{
 				//Debug.Log ("click cube");
 				cube.SetActive (true);
-				Application.LoadLevel ("1");
+		//Application.LoadLevel ("1");
 
 		}
 }
